@@ -1,0 +1,48 @@
+body {
+  background-color: #c0d2d4;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 65px;
+  display: inline-block;
+  color: #fff;
+  background-color: #3db390;
+  padding: 7px;
+  margin-bottom: 15px;
+}
+
+.entry {
+  width: 310px;
+  /* height: 220px; */
+  height: auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);;
+  padding: 20px;
+  text-align: center;
+  margin: 30px;
+}
+
+.emoji {
+  font-size: 66px;
+}
+
+.entry_title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #3db390;
+  margin-bottom: 0px;
+  /* font */
+}
+
+.container {
+  padding: 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
